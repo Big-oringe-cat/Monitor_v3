@@ -1,0 +1,56 @@
+﻿Validating models...
+
+0 errors found
+March 15, 2018 - 16:13:23
+Django version 1.6.8, using settings 'Monitor_v3.settings'
+Starting development server at http://127.0.0.1:64977/
+Quit the server with CTRL-BREAK.
+线程 0x1a10 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:25] "GET / HTTP/1.1" 404 6282
+线程 0x2c84 已退出，返回值为 0 (0x0)。
+线程 0x1b58 已退出，返回值为 0 (0x0)。
+线程 0x2558 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:32] "GET /login HTTP/1.1" 200 2344
+线程 0x2934 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:32] "GET /static/css/bootstrap-responsive.min.css HTTP/1.1" 200 16520
+线程 0x10c8 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 101265
+[15/Mar/2018 16:13:32] "GET /static/css/unicorn.login.css HTTP/1.1" 200 1890
+线程 0x22e4 已退出，返回值为 0 (0x0)。
+线程 0x2478 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:32] "GET /static/js/form-validate/validationEngine.jquery.css HTTP/1.1" 200 2520
+线程 0x29b4 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:32] "GET /static/js/jquery.min.js HTTP/1.1" 200 94839
+线程 0x2fc4 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:33] "GET /static/js/form-validate/jquery.validationEngine-cn.js HTTP/1.1" 200 7844
+线程 0x1648 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:33] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 26301
+线程 0x948 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:33] "GET /static/js/form-validate/jquery.validationEngine.js HTTP/1.1" 200 30850
+线程 0x2e50 已退出，返回值为 0 (0x0)。
+admin
+admin
+select admin_id,admin_pwd,admin_name from admin_user where admin_id='admin' and status=0
+[15/Mar/2018 16:13:41] "POST /login HTTP/1.1" 302 0
+线程 0x184c 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:41] "GET /index.do HTTP/1.1" 200 11819
+线程 0x420 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:41] "GET /static/css/unicorn.main.css HTTP/1.1" 200 26484
+线程 0xd04 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:41] "GET /static/css/unicorn.grey.css HTTP/1.1" 200 2162
+线程 0x2d50 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:42] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 25743
+线程 0x1160 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:42] "GET /static/js/unicorn.js HTTP/1.1" 200 3269
+线程 0x2dcc 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:42] "GET /Chart/chart HTTP/1.1" 200 14443
+线程 0x1b8c 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:42] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 11174
+线程 0x2d80 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:13:49] "GET /Chart/static/js/echarts.js HTTP/1.1" 200 2035470
+线程 0x2054 已退出，返回值为 0 (0x0)。
+[15/Mar/2018 16:14:03] "GET /static/img/menu-active.png HTTP/1.1" 200 1149
+线程 0x2580 已退出，返回值为 0 (0x0)。
+线程 0x2c98 已退出，返回值为 0 (0x0)。
+线程 'MainThread' (0x2b70) 已退出，返回值为 0 (0x0)。
+程序“[12284] python.exe”已退出，返回值为 0 (0x0)。
