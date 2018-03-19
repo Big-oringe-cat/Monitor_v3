@@ -107,7 +107,7 @@ DATABASES = {
         'NAME': 'monitor_ping',
         'USER': 'root',
         'PASSWORD': '666666',
-        'HOST': '192.168.81.204',
+        'HOST': '192.168.81.203',
         'PORT': '3306',
     }
 }
@@ -136,10 +136,10 @@ STATIC_URL='/media/'
 STATIC_ROOT = 'static'
 
 if socket.gethostname() == 'cat.com':
-    STATIC_PATH='/workspace/monitor/Monitor_v3/static'
+    STATIC_PATH='/workspace/Monitor_v3/Monitor_v3/static'
 
     TEMPLATE_DIRS = (
-                 '/workspace/monitor/Monitor_v3/ShareMethod/templates',
+                 '/workspace/Monitor_v3/Monitor_v3/ShareMethod/templates',
                  )
 
 else:
