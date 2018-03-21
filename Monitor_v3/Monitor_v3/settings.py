@@ -107,7 +107,7 @@ DATABASES = {
         'NAME': 'monitor_ping',
         'USER': 'root',
         'PASSWORD': '666666',
-        'HOST': '192.168.81.203',
+        'HOST': '192.168.81.202',
         'PORT': '3306',
     }
 }
